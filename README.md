@@ -34,15 +34,15 @@ Display the filtered image using plot and imshow.
 
 ## Program:
 ```
-DEVELOPED BY: G.Jayanth.
-REGISTER NUMBER:212221230030
+DEVELOPED BY:PRAKASH M
+REGISTER NUMBER:212222100035
 ```
 ## Import the packages
 
 ``` Python
 import cv2
 import matplotlib.pyplot as plt
-image = cv2.imread("dipex7.png")
+image = cv2.imread("d.png")
 gray_image = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 new_image = cv2.GaussianBlur(gray_image,(3,3),0)
 ```
@@ -126,32 +126,24 @@ plt.show()
 ### SOBEL EDGE DETECTOR
 # SOBEL X:
 
-<img width="421" alt="image" src="https://github.com/JayanthYadav123/EDGEDETECTION/assets/94836154/95be6b6c-51f1-4571-bd8e-f300033b9602">
+<img width="419" alt="image" src="https://github.com/Prakashmathi2004/EDGEDETECTION/assets/118350045/66c302c9-a569-4e5a-9f14-92dbe3303bc4">
 
 
 # SOBEL Y:
 
-
-<img width="416" alt="image" src="https://github.com/JayanthYadav123/EDGEDETECTION/assets/94836154/67478870-3575-427b-abd1-8868a6bd0030">
-
+<img width="425" alt="image" src="https://github.com/Prakashmathi2004/EDGEDETECTION/assets/118350045/db176231-4d07-47de-85af-46d2fee1be68">
 
 # SOBEL XY:
 
-
-<img width="430" alt="image" src="https://github.com/JayanthYadav123/EDGEDETECTION/assets/94836154/2f179aca-3ce4-4b65-903d-3e75b48582d2">
-
-
+<img width="425" alt="image" src="https://github.com/Prakashmathi2004/EDGEDETECTION/assets/118350045/433cad19-de4e-418f-8439-7504ec723bac">
 
 ### LAPLACIAN EDGE DETECTOR
 
-
-<img width="449" alt="image" src="https://github.com/JayanthYadav123/EDGEDETECTION/assets/94836154/abae1a94-9f0b-44b3-8fdf-0fadfb012137">
-
-
+<img width="431" alt="image" src="https://github.com/Prakashmathi2004/EDGEDETECTION/assets/118350045/2f56bb4a-5a2c-4661-b4f7-fe6f785c75c3">
 
 ### CANNY EDGE DETECTOR
 
-<img width="431" alt="image" src="https://github.com/JayanthYadav123/EDGEDETECTION/assets/94836154/c8575912-4deb-4cc4-b6ef-5a1fd47512c9">
+<img width="425" alt="image" src="https://github.com/Prakashmathi2004/EDGEDETECTION/assets/118350045/a8b16f37-0e31-479a-92e9-8c36ae62e6cc">
 
 
 ## Result:
